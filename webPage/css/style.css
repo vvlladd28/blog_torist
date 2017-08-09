@@ -1,0 +1,372 @@
+/* CSS Document */
+.slider_wrap {
+	margin: 0 auto 10px;
+	width: 900px;
+	height:200px;
+	position:relative;
+	overflow:hidden;
+}
+.slider_wrap img {
+	width: 860px;
+	height:auto;
+	display:none;
+	position:absolute;
+	top:0;
+	left:20px;	
+}
+.slider_wrap img:first-child {
+	display:block;
+}
+.slider_wrap span {
+	margin-top:-13px;
+	width:15px;
+	height:26px;
+	display:block;
+	position:absolute;
+	top:50%;
+	cursor:pointer;
+	background:url(../image/slider2_arrow.png) no-repeat;
+}
+.slider_wrap span.next {
+	right:0;
+	background-position:-15px 0;
+}
+.slider_wrap span.next:hover {
+	background-position:-15px -26px;
+}
+.slider_wrap span.prev {
+	left:0;
+	background-position: 0 0;
+}
+.slider_wrap span.prev:hover {
+	background-position: 0 -26px;
+}
+body{
+    background-color:#edece8;
+}
+
+.bg-image{
+    position:relative;
+}
+
+.bg-image img{
+    display:block;
+    width:100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.bg-image p{
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    font: 2.75em "Century Gothic";
+    color:#3f282f;
+}
+header{
+	margin:0;
+}
+
+header h1{
+	font: 3em "Century Gothic";
+}
+header a{
+    position:absolute;
+    top:0;
+    right: 0;
+    color:#716b5b;
+    text-decoration:none;
+}
+header a:hover{
+    color:#716b5b;
+    text-decoration:underline;
+}
+.Leter{
+    color:#a73700;
+}
+
+.carousel-inner img{
+	border:1px solid #3f282f;
+	border-radius: 4px;
+}
+.carousel-indicators{
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: right;
+	padding-left: 0;
+	padding-right: 15px;
+	margin-left: 0;
+}
+.carousel-indicators .active{
+	width: 15px;
+	height: 15px;
+	margin: 0;
+	background-color: #fff;
+	border: 2px solid #3f282f;
+}
+
+.carousel-indicators li{
+	width: 15px;
+	height: 15px;
+	margin: 0px;
+	background-color: #3f282f;
+	border: 2px solid #fff;
+	border-radius: 15px;
+}
+
+.Content{
+	background:#ffffff;
+	border:1px solid #f6f6f4;
+	border-radius: 0;
+}
+
+
+.navbar-inverse { background-color: #3F282F}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #301D23}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #221519}
+.dropdown-menu { background-color: #EDECE8; border-radius: 0 0 8px 8px; border:1px solid #47333c; opacity: 0.9;}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #EDECE8}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #f6f6f4}
+.navbar-inverse .navbar-brand { color: #D1C6A8}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a { color: #B5B5B5}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #666666}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #000000}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+
+@media (max-width: 767px) {
+	.navbar.navbar-inverse{
+		margin:0;
+	}
+	div.container.wrapper{
+		padding-right:0;
+		padding-left:0;
+	}
+	.Content{
+		padding:0 3px 0 3px;
+		margin:0;
+		border-radius: 0 0 15px 15px;
+		padding-top:10px;
+	}
+	.ArticleSite .panel{
+		margin-bottom: 10px;
+	}
+		.ArticleSite .panel .panel-body p{
+			font:normal 12px Verdana;
+			margin:0 0 10px 0;
+		}
+		.ArticleSite .panel .panel-heading h2 a{
+			font:normal 18px Verdana;
+			color:#3f282f;
+			text-decoration:none;
+		}
+		.ArticleSite .panel .panel-heading h2 a:hover{
+			color:#3f282f;
+			text-decoration:underline;
+		}
+	.data{
+			font:normal 10px Verdana;
+			color: #b8a6ab;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar.navbar-inverse{
+		margin:0 0 10px 0;
+	}
+	.Menu{
+		height:52px;
+	}
+	body {
+        font-size: 80%;
+    }
+    .navbar {
+         border-radius: 15px 15px 0 0;
+    } 
+    .ContentSite{
+    	padding:0 15px 0 15px;
+    }
+    #carousel{
+		margin: 10px 15px;
+	}
+	.Content{
+		border-radius: 0 0 15px 15px;
+	}
+	.ArticleSite .panel{
+		margin-bottom: 10px;
+	}
+		.ArticleSite .panel .panel-heading h2 a{
+			font:normal 20px Verdana;
+			color:#3f282f;
+			text-decoration:none;
+		}
+		.ArticleSite .panel .panel-heading h2 a:hover{
+			font:normal 20px Verdana;
+			color:#3f282f;
+			text-decoration:underline;
+		}
+		.ArticleSite .panel .panel-body p{
+			font:normal 13px Verdana;
+			margin:0 0 13px 0;
+		}
+	.data{
+			font:normal 11px Verdana;
+			color: #b8a6ab;
+	}
+}
+@media (min-width: 992px) {
+    #carousel{
+		margin:15px;
+	}
+	body {
+        font-size: 100%;
+    }
+    .ArticleSite .panel{
+		margin-bottom: 20px;
+	}
+		.ArticleSite .panel .panel-heading h2 a{
+			font:normal 22px Verdana;
+			color:#3f282f;
+			text-decoration:none;
+		}
+		.ArticleSite .panel .panel-heading h2 a:hover{
+			font:normal 22px Verdana;
+			color:#3f282f;
+			text-decoration:underline;
+		}
+		.ArticleSite .panel .panel-body p{
+			font:normal 14px Verdana;
+			margin:0 0 15px 0;
+		}
+	.data{
+			font:normal 12px Verdana;
+			color: #b8a6ab;
+	}
+}
+
+.nav li a{
+	font: 18px "Centure Gothic";
+}
+
+.ArticleSite .panel{
+	background:#f5f5f5;
+	border:1px solid #e7e2e3;
+	border-radius:9px;
+}
+	.ArticleSite .panel .panel-heading{
+		background:#e7e2e3;
+		padding: 6px 15px 6px 15px;
+		border-radius:8px 8px 0 0;
+	}
+	.ArticleSite .panel .panel-body{
+	padding: 10px 15px 0 15px;
+	border-radius:0 0 8px 8px;
+	}
+		.ArticleSite .panel .panel-body img{
+			float:left;
+			margin: 6px 10px 3px 0;
+			border:1px solid #4c363d;
+		}
+		.ArticleSite .panel .panel-body a{
+			color:#3f282f;
+			text-decoration:underline;
+		}
+		.ArticleSite .panel .panel-body a:hover{
+			color:#3f282f;
+			text-decoration:none;
+		}
+
+.MenuRight .panel {
+		border:0px;
+		border-radius:8px;
+	}
+	.MenuRight .panel .panel-heading{
+		background:#3f282f;
+		border: 1px solid #3f282f;
+		border-radius:8px 8px 0 0;
+	}
+	.MenuRight .panel .panel-heading h2{
+		font:18px "Century Gothic";
+		color:#ffffff;
+		text-align:center;
+	}
+	.MenuRight .panel .panel-body{
+		border: 1px solid #c8bbbd;
+		border-radius: 0 0 8px 8px;
+		padding:20px 15px;
+		background-color:#e7e2e3;
+	}
+	.MenuRight .panel-body ul{
+		list-style:none;
+		padding:0px;
+	}
+	.MenuRight .panel-body li{
+		font:14px "Century Gothic";
+		color:#000000;
+		border-bottom:1px solid #c8bbbd;
+		border-top:1px solid #ffffff;
+		padding:5px 0 5px 20px;
+	}
+	.MenuRight .panel-body li:first-child{
+		border-top:none;
+	}
+	.MenuRight .panel-body li:last-child{
+		border-bottom:none;
+	}
+	.MenuRight .panel-body li a{
+		font:14px "Century Gothic";
+		color:#000000;
+		text-decoration:underline;
+	}
+	.MenuRight .panel-body li a:hover{
+		font:14px "Century Gothic";
+		color:#000000;
+		text-decoration:none;
+	}
+footer{
+	padding:30px 25px;
+	opacity: 0.5;
+}
+
+.CopyRight a{
+    font: 26px "Century Gothic";
+    color:#716b5b;
+    text-decoration:none;
+}
+.CopyRight a:hover{
+    font: 26px "Century Gothic";
+    color:#716b5b;
+    text-decoration:underline;
+}
+.CopyRight p{
+	font: 14px "Verdana";
+	color: #000000;
+}
+.MenuFoot h3{
+	font:normal 24px "Century Gothic";
+	color:#3f282f;
+	margin:0;
+}
+.MenuFoot ul{
+	list-style:none;
+	padding:0;
+}
+.MenuFoot li a{
+	font:14px "Century Gothic";
+	color:#000;
+}
+.MenuFoot li a:hover{
+	font:14px "Century Gothic";
+	color:#000;
+	text-decoration:none;
+}
